@@ -9,6 +9,7 @@ header {
     background-color: #a4917a;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 header img {
@@ -51,13 +52,13 @@ header ul li a {
 
 
 .sessão-01 p {
-    font-size: 35px;
-    font-weight: 400;
+    font-size: 30px;
+    font-weight: 300;
     color: white;
 }
 
 .sessão-01 span {
-    font-size: 35px;
+    font-size: 30px;
     font-weight: 400;
     color: rgb(174, 255, 0);
 
@@ -69,6 +70,117 @@ header ul li a {
 }
 
 
+.div-pai{
+    display: flex; /*tornando os itens flex*/
+    justify-content: center;/*justicando os itens ao centro*/
+    margin-bottom: 20px;
+}
+/* estilização das caixas (div filho)  */
+.div-pai div{
+    background-color: yellow;
+    width: 200px;/*largura da caixa*/
+    height: 280px;/*altura da caixa*/
+    margin-right: 20px;/**/
+    border-radius: 15px;/**/
+}
+/*  */
+.div-pai .div-filho1{
+    background-image: url(imagens/imgens\ para\ mostruario\ 1.jpeg);/**/
+    background-size: cover;/**/
+    background-position: center;/**/
+    background-repeat: no-repeat;/**/
+}
+/*  */
+.div-pai .div-filho1:hover{
+    width: 250px;/**/
+    right: 350px;/**/
+    transition: 0.8s;/**/
+}
+
+/*  */
+.div-pai .div-filho2{
+    background-image: url(imagens/imagem\ para\ mostruario\ 2.jpeg);/**/
+    background-size:cover;/**/
+    background-position: center;/**/
+    background-repeat: no-repeat;/**/
+}
+/*  */
+.div-pai .div-filho2:hover{
+    width:250px ;/**/
+    right: 350px;/**/
+    transition: 0.5s;/**/
+}
+
+/*  */
+.div-pai .div-filho3{
+    background-image: url(imagens/imagem\ mostruario\ 3.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.div-pai .div-filho3:hover{
+    width: 250px;
+    right: 350px;
+    transition: 0.5s;
+
+}
+
+
+.div-pai2 .div-filho01{
+    background-image:url(imagens/imagem\ mostruario\ 4.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.div-pai2 .div-filho01:hover{
+    width: 250px;
+    right: 350px;
+    transition: 0.5s;
+}
+
+.div-pai2 .div-filho02{
+    background-image: url(imagens/Barbershop.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.div-pai2 .div-filho02:hover{
+    width: 250px;
+    right: 350px;
+    transition: 0.5s;
+}
+.div-pai2 .div-filho03{
+    background-image: url(imagens/imagem\ mostruario\ 6.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.div-pai2 .div-filho03:hover{
+    width: 250px;
+    right: 350px;
+    transition: 0.5s;
+}
+
+
+.div-pai2{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    
+}
+.div-pai2 div{
+    width: 200px;
+    height: 280px;
+    background-color: rgb(0, 38, 255);
+    margin-right: 20px;
+    border-radius: 15px;
+
+}
+
+
+
 
 
 
@@ -78,13 +190,40 @@ header ul li a {
 
 .sessão-03 {
     padding: 300px;
-    background-color: aqua;
+    background-color: white;
     display: flex;
-
 
 }
 
-.div-ifreme footer {
+
+iframe{
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.div-pg2{
+    margin-top: 15px;
+    align-items: center;
+    justify-items: center;
+    justify-content: space-around;
+}
+
+.div-pg2 h2{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+
+.div-pg2 p {
+    font-size: 25px;
+    font-weight: 400;
+    margin-top: 20px;
+
+}
+
+
+
+ .footer-pagina2 {
     background-color: black;
     padding: 15px;
     justify-content: space-evenly;
@@ -125,4 +264,5 @@ footer i:hover {
     color: black;
     padding: 15px;
     transition: 0.8s;
+
 }
