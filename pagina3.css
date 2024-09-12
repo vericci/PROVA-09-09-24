@@ -1,0 +1,154 @@
+* {
+    margin: 0px;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Open Sans", sans-serif;
+}
+
+.pagina3 {
+    background-color: gray;
+    padding: 50px;
+    display: flex;
+    background-size: cover;
+    justify-content: space-around;
+}
+
+
+.pagina3 img {
+    width: 70px;
+    height: auto;
+
+}
+
+.pagina3 ul {
+    display: flex;
+    
+    
+}
+
+.pagina3 ul li {
+    margin: 10px;
+    list-style: none;
+    
+
+}
+
+.pagina3 ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.pagina3 ul li a:hover {
+    color: rgb(174, 255, 0);
+    transition: 0.6s;
+}
+
+.pagina3 i {
+    width: 30px;
+    color: black;
+    font-size: 30px;
+    border-radius: 15px;
+    margin: 10px;
+}
+
+.pagina3 i:hover {
+    width: 38px;
+    transition: 0.6s;
+    color:rgb(174, 255, 0) ;
+}
+
+
+
+.thiago{
+    background-color: black;
+    padding: 400px;
+    background-image: url(imagens/img\ pagina\ 3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  
+}
+
+   
+.thiago h2 {
+    font-size: 60px;
+    font-weight: 400;
+    color: white;
+    justify-content: center;
+
+
+}
+
+.thiago p {
+    font-size: 30px;
+    font-weight: 300px;
+    color: white;
+    
+}
+
+.thiago2 {
+    background-color: black;
+    padding: 300px;
+    background-image: url(imagens/img\ 3\ pagina\ 3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+
+.thiago2 h2 {
+    font-size: 40px;
+    font-weight: 500;
+    color: white;
+   
+}
+.thiago2 p{
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.footer-pagina3 {
+    background-color: gray;
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+.footer-pagina3 img {
+    width: 80px;
+    display: flex;
+    position: center;
+
+}
+footer .line01{
+    width: 200px;
+    border-color: black;
+    
+}
+
+.footer-pagina3 ul {
+    display: flex;
+    margin-top: 50px;
+   
+}
+.footer-pagina3 ul li {
+   margin: 10px;
+
+}
+
+
+.footer-pagina3 ul li a {
+    color: black;
+    
+}
+.footer-pagina3 ul li a:hover {
+    color: white;
+    transition: 0.6s;
+}
+
+
+    
+
+
+
+   
